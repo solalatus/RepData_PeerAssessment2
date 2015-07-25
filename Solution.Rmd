@@ -1,0 +1,28 @@
+---
+title: "Analysis of NWS storm dataset"
+author: "Levente Szabados"
+date: '2015-07-25'
+output: html_document
+---
+# Analysis of the NWS Storm dataset
+# For Reproducible research course
+# Peer Assessment 2
+
+## Summary
+
+Results here!
+
+## Introduction of the dataset
+
+PDF contents here!!
+
+### Preliminary setup
+
+```{r setup, echo=TRUE}
+library(knitr)
+opts_chunk$set(echo = TRUE)
+workdir <-"~/course-work/C5/"
+url <- "https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2FStormData.csv.bz2" 
+```
+
+### Getting the data
